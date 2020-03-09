@@ -89,6 +89,9 @@ color: 000;
 #686af8 100%);
     border-image-slice: 100%;
     border-image-slice: 1;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
 }
 
 .menu-food .menu-food-pennal li {
@@ -179,4 +182,17 @@ menu-food .menu-food-pennal li span {
 
 .menu-food .menu-food-pennal .food-10 {
     background-position: -1047px 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .hinh-1 {
+    width: 40%;
+    height: 40%;
+  }
+  p{
+    font-size: 1em;
+  }
+  h4 {
+    font-size: 0.5em;
+  }
 }
