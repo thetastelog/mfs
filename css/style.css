@@ -188,7 +188,7 @@ menu-food .menu-food-pennal li span {
   display: none;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 768px) {
   .hinh-1 {
     width: 40%;
     height: 40%;
@@ -204,17 +204,5 @@ menu-food .menu-food-pennal li span {
 
   .logogif {
     display: inline;
-  }
-
-  .diamond-wrap {
-    display: none;
-  }
-
-  .logowindow {
-    transform: scale(1);
-  }
-
-  .bodydia {
-    height: auto;
   }
 }
