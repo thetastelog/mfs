@@ -184,15 +184,37 @@ menu-food .menu-food-pennal li span {
     background-position: -1047px 0;
 }
 
+.logogif{
+  display: none;
+}
+
 @media only screen and (min-width: 600px) {
   .hinh-1 {
     width: 40%;
     height: 40%;
   }
-  p{
+
+  p {
     font-size: 1em;
   }
+
   h4 {
     font-size: 0.5em;
+  }
+
+  .logogif {
+    display: inline;
+  }
+
+  .diamond-wrap {
+    display: none;
+  }
+
+  .logowindow {
+    transform: scale(1);
+  }
+
+  .bodydia {
+    height: auto;
   }
 }

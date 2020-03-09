@@ -304,3 +304,21 @@ figcaption {
   user-select: none;
   cursor: default;
 }
+
+@media only screen and (min-width: 600px) {
+  .logogif {
+    display: inline;
+  }
+
+  .diamond-wrap {
+    display: none;
+  }
+
+  .logowindow {
+    transform: scale(1);
+  }
+
+  .bodydia {
+    height: auto;
+  }
+}
